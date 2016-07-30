@@ -104,6 +104,11 @@ void mideorder(bintree tree){
       }
 }
 
+//3. postorder
+void postorder_dev(bintree tree){
+
+  
+}
 
 void  mian() {
 
