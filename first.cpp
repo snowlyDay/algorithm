@@ -90,15 +90,20 @@ void mideorder(bintree tree){
     seqstack s ;
     s.top =-1;
     if(!tree){
-
-      
-    }
-
-
-
-
-
+         printf(" the tree  is empty\n");
+    }else{
+       while (tree||s.top!= -1) {
+            while (tree ) {
+              push(&s ,tree );
+              t=t->lchild;
+            }
+            tree= pop(&s);
+            printf(" %c\n",tree->data );
+            tree =tree->rchild;
+        }
+      }
 }
+
 
 void  mian() {
 
