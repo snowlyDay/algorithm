@@ -106,8 +106,13 @@ void mideorder(bintree tree){
 
 //3. postorder
 void postorder_dev(bintree tree){
+  seqstack s ;
+  s.top =-1;
+  if(!tree){
+     printf(" the tree is empty\n" );
+     
+  }
 
-  
 }
 
 void  mian() {
